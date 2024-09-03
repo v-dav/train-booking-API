@@ -42,7 +42,7 @@ const Header = ({ projectName }) => {
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="https://traindemo-latest.onrender.com/api/v1/swagger-ui/index.html" className="nav-link">Docs</a>
+								<a href="https://traindemo-latest.onrender.com/api/v1/swagger-ui/index.html" className="nav-link" target="_blank">Docs</a>
 							</li>
 						</ul>
 					</div>

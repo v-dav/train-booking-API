@@ -1,33 +1,38 @@
 import { useState } from 'react';
 import CrudInterface from '../components/CrudInterface';
-import SearchBar from '../components/SearchBar';
+import ApiStatus from '../components/ApiStatus';
 
 const Home = ({ projectName }) => {
-	const [activeEntity, setActiveEntity] = useState('trains');
+	const [activeEntity, setActiveEntity] = useState('train');
+	const apiBaseUrl = 'http://localhost:8080/api/v1';
 
 	return (
 		<div className="container mt-4">
 			<h2 className="text-center mb-4">{projectName} API Capabilities</h2>
 
+			<div className="mb-4">
+				<ApiStatus baseUrl={apiBaseUrl} />
+			</div>
+
 			<div className="btn-group w-100 mb-4" role="group">
 				<button
 					type="button"
-					className={`btn btn-outline-primary ${activeEntity === 'trains' ? 'active' : ''}`}
-					onClick={() => setActiveEntity('trains')}
+					className={`btn btn-outline-primary ${activeEntity === 'train' ? 'active' : ''}`}
+					onClick={() => setActiveEntity('train')}
 				>
 					Trains
 				</button>
 				<button
 					type="button"
-					className={`btn btn-outline-primary ${activeEntity === 'users' ? 'active' : ''}`}
-					onClick={() => setActiveEntity('users')}
+					className={`btn btn-outline-primary ${activeEntity === 'user' ? 'active' : ''}`}
+					onClick={() => setActiveEntity('user')}
 				>
 					Users
 				</button>
 				<button
 					type="button"
-					className={`btn btn-outline-primary ${activeEntity === 'bookings' ? 'active' : ''}`}
-					onClick={() => setActiveEntity('bookings')}
+					className={`btn btn-outline-primary ${activeEntity === 'booking' ? 'active' : ''}`}
+					onClick={() => setActiveEntity('booking')}
 				>
 					Bookings
 				</button>
