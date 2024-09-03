@@ -1,4 +1,5 @@
-# Train Booking System
+# Train Booking API Prototype
+![chrome-capture-2024-9-3](https://github.com/user-attachments/assets/302373ce-6a1c-4938-89d5-9e1ba6c5d4c9)
 
 ## API documentation [here](https://traindemo-latest.onrender.com/api/v1/swagger-ui/index.html)
 ## Live here [here](https://train-booking-api-tid5.onrender.com/)
