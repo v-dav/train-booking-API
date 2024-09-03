@@ -16,9 +16,9 @@
 4. User Service
 
 ### API Endpoints:
-1. `/trains` - CRUD operations for trains
-3. `/bookings` - Create, read, and cancel bookings
-4. `/users` - User registration and management
+1. `/train` - CRUD operations for trains
+3. `/booking` - Create, read, and cancel bookings
+4. `/user` - User registration and management
 5. `/status`- Checks the API status
 6. `/swagger-ui/index.html` - API documentation
 
