@@ -1,0 +1,117 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f8f9fa;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+	border-color: #0056b3;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	color: #007bff !important;
+}
+
+.search-container {
+	background-image: url('https://source.unsplash.com/1600x900/?train,railway');
+	background-size: cover;
+	background-position: center;
+	padding: 4rem 0;
+	position: relative;
+}
+
+.search-container::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.search-form {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+	padding: 2rem;
+}
+
+.footer {
+	background-color: #343a40;
+	color: #ffffff;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.social-icons a {
+	color: #ffffff;
+	font-size: 1.5rem;
+	transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+	color: #007bff;
+}
+
+@media (max-width: 991px) {
+	.footer .row>div {
+		margin-bottom: 1rem;
+	}
+}
+
+/* ... (previous styles remain the same) ... */
+
+.search-container {
+	background-image: url('https://source.unsplash.com/1600x900/?train,railway');
+	background-size: cover;
+	background-position: center;
+	padding: 4rem 0;
+	position: relative;
+}
+
+.search-container::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.search-form {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+	padding: 2rem;
+	position: relative;
+	z-index: 1;
+}
+
+/* ... (rest of the styles remain the same) ... */
+
+/* Add these new styles */
+.feature-icon {
+	font-size: 2rem;
+	color: #007bff;
+	margin-bottom: 1rem;
+}
+
+.feature-title {
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+}
+
+.feature-description {
+	font-size: 0.9rem;
+	color: #6c757d;
+}
