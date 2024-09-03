@@ -40,7 +40,7 @@ Simple interface to search for trains, view available seats, and make bookings
 ## Technical Aspects to Highlight:
 1. RESTful API design
 2. Data validation and error handling
-3. Basic authentication and authorization and Google OAuth leveraging Spring Security
+3. Basic authentication and authorization leveraging Spring Security
 4. Database relationships and queries with PostgreSQL
 5. Integration between frontend and backend
 6. Testing with Postman 
