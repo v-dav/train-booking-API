@@ -1,5 +1,8 @@
 # Train Booking System
 
+## API documentation [here](https://traindemo-latest.onrender.com/api/v1/swagger-ui/index.html)
+## Live here [here](https://train-booking-api-tid5.onrender.com/)
+
 ## Backend
 ### Stack
 1. Java Spring Boot 3
@@ -9,6 +12,7 @@
 5. Apache Tomcat
 6. Springdoc OpenAPI with SwaggerUI for API documentation
 7. PostgreSQL hosted on Supabase (Trains, Bookings, Users)
+8. Deployed via Docker container on Render
 
 ### Main Components:
 1. Train Service
@@ -29,6 +33,7 @@ Simple interface to search for trains, view available seats, and make bookings
 2. Vanilla JS
 3. Vite.js
 4. Bootstrap CSS
+5. Deployed on Render separately
 
 ## Key Features:
 1. Search and book for trains
