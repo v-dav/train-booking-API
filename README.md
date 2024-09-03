@@ -9,7 +9,6 @@
 1. Java Spring Boot 3
 2. Gradle
 3. Spring Security
-4. Google OAuth
 5. Apache Tomcat
 6. Springdoc OpenAPI with SwaggerUI for API documentation
 7. PostgreSQL hosted on Supabase (Trains, Bookings, Users)
@@ -31,17 +30,9 @@
 Simple interface to search for trains, view available seats, and make bookings
 1. React.js
 2. fetchAPI
-2. Vanilla JS
 3. Vite.js
 4. Bootstrap CSS
 5. Deployed on Render separately
-
-## Key Features:
-1. Search and book for trains
-2. View train schedules and available seats
-4. User registration and login with email password and Google OAuth
-5. Admin dashboard (CRUD operations on all entities and search all)
-6. User dashboard (book trains and manage bookings and search bookings)
 
 ## Technical Aspects to Highlight:
 1. RESTful API design
@@ -52,3 +43,10 @@ Simple interface to search for trains, view available seats, and make bookings
 6. Testing with Postman 
 7. Containerized with Docker 
 8. Deployment on Render
+
+## Future Implementations:
+1. Search and book for trains
+2. View train schedules and available seats
+4. User registration and login with email password and Google OAuth
+5. Admin dashboard (CRUD operations on all entities and search all)
+6. User dashboard (book trains and manage bookings and search bookings)
