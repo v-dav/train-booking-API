@@ -4,11 +4,11 @@ import ApiStatus from '../components/ApiStatus';
 
 const Home = ({ projectName }) => {
 	const [activeEntity, setActiveEntity] = useState('train');
-	const apiBaseUrl = 'http://localhost:8080/api/v1';
+	const apiBaseUrl = 'https://traindemo-latest.onrender.com/api/v1';
 
 	return (
 		<div className="container mt-4">
-			<h2 className="text-center mb-4">{projectName} API Capabilities</h2>
+			<h2 className="text-center mb-4">{projectName} API Operations</h2>
 
 			<div className="mb-4">
 				<ApiStatus baseUrl={apiBaseUrl} />

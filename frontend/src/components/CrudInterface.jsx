@@ -32,7 +32,7 @@ const CrudInterface = ({ entity }) => {
 		setError(null);
 		setResult(null);
 
-		const baseUrl = 'http://localhost:8080/api/v1';
+		const baseUrl = 'https://traindemo-latest.onrender.com/api/v1';
 		let url = `${baseUrl}/${entity}`;
 		let method = 'GET';
 		let body;
