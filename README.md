@@ -20,6 +20,7 @@
 3. `/bookings` - Create, read, and cancel bookings
 4. `/users` - User registration and management
 5. `/status`- Checks the API status
+6. `/swagger-ui/index.html` - API documentation
 
 ## Frontend
 Simple interface to search for trains, view available seats, and make bookings
