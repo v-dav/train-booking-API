@@ -37,12 +37,12 @@ const Header = ({ projectName }) => {
 								</>
 							)}
 							<li className="nav-item">
-								<a href="https://github.com/your-repo" className="nav-link" target="_blank" rel="noopener noreferrer">
+								<a href="https://github.com/v-dav" className="nav-link" target="_blank" rel="noopener noreferrer">
 									<i className="fab fa-github"></i>
 								</a>
 							</li>
 							<li className="nav-item">
-								<a href="/docs" className="nav-link">Docs</a>
+								<a href="https://traindemo-latest.onrender.com/api/v1/swagger-ui/index.html" className="nav-link">Docs</a>
 							</li>
 						</ul>
 					</div>
