@@ -1,13 +1,20 @@
 import { useState } from 'react';
 
-const SearchBar = () => {
+const SearchBar = ({ onSearch }) => {
 	const [from, setFrom] = useState('');
 	const [to, setTo] = useState('');
 	const [date, setDate] = useState('');
 
-	const handleSearch = (e) => {
+	const handleSearch = async (e) => {
 		e.preventDefault();
-		console.log('Searching for trains:', { from, to, date });
+		const departureTime = new Date(date).toISOString();
+		try {
+			const response = await fetch(`https://traindemo-latest.onrender.com/api/v1/train/search?departureStation=${from}&arrivalStation=${to}&departureTime=${departureTime}`);
+			const data = await response.json();
+			onSearch(data);
+		} catch (error) {
+			console.error('Error searching trains:', error);
+		}
 	};
 
 	return (
