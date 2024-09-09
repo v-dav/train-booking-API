@@ -37,7 +37,7 @@ const Header = ({ projectName }) => {
 								</>
 							)}
 							<li className="nav-item">
-								<a href="https://github.com/v-dav" className="nav-link" target="_blank" rel="noopener noreferrer">
+								<a href="https://github.com/v-dav/train-booking-api" className="nav-link" target="_blank" rel="noopener noreferrer">
 									<i className="fab fa-github"></i>
 								</a>
 							</li>
